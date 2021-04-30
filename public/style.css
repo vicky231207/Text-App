@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --bg-color: #F26222;
+    --text-bg: #E62E2C;
+    --text-bubble-self: #FC2383;
+    --text-bubble-other: #F222E6;
+}
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: var(--bg-color);
+}
+#input-box{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--text-bg);
+    padding: 2rem 2rem;
+    height: 3rem;
+    width: calc(100% - 3rem);
+    display: flex;
+    justify-content: space-evenly;
+}
+#input, #name{
+    width:100%;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+#chat-box{
+    margin: 0 1rem 0 1rem;
+    width:fit-content;
+}
+#chat-box p {
+    width: 100%;
+    word-wrap: break-word;
+}
+#container{
+    display: flex;
+    position: fixed;
+    top: calc(50% - 2.5rem);
+    justify-content: space-evenly;
+    padding: 2rem 2rem;
+    width: calc(100% - 3rem);
+
+}
+
+#name-box {
+    background-color: var(--bg-color);
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+}
+
+.hidden{
+    visibility: hidden;
+}

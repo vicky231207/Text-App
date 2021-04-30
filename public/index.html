@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sockets with Express!</title>
+    </head>
+    <body>
+        <div id="chat-box"></div>
+        <form autocomplete="off" id="input-box" action="">
+            <input type="text" id="input"><button>Send</button>
+        </form>
+        <form action="" id="name-box">
+            <div id="container">
+            <input autocomplete="off" placeholder="Name:" type="text" id="name"><button>Submit</button>
+            </div>
+        </form>
+        <script src="socket.io/socket.io.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
